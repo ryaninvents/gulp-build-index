@@ -1,0 +1,34 @@
+---
+sampleMdDocs:
+  base: /home/r24y/projects/foo
+  files:
+    - path: README.md
+      contents: Simple foo project that helps you manage your foo.
+    - path: api.md
+      contents: Foo endpoint helps you foo bar baz
+    - path: CONTRIBUTING.md
+      contents: Please help me with my foo project
+docsWithKeywords:
+  base: /home/r24y/projects/bar
+  files:
+    - path: Spatula.md
+      frontMatter:
+        keywords:
+          - kitchen
+          - cooking
+        price: $8.99
+      contents: This handy spatula will revolutionize your scrambled eggs.
+    - path: Sofa.md
+      frontMatter:
+        keywords:
+          - living room
+          - sitting
+        price: $349.00
+      contents: Careful, once you sit on this sofa you won't want to get up.
+    - path: KitchenChair.md
+      frontMatter:
+        keywords:
+          - kitchen
+          - sitting
+        price: $21.00
+      contents: This kitchen chair will support you through thick and thin.

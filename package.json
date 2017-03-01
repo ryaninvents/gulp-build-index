@@ -1,0 +1,44 @@
+{
+  "name": "gulp-build-index",
+  "version": "0.1.0",
+  "description": "Build an index from source files, then use it downstream",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "r24y/gulp-build-index"
+  },
+  "files": [
+    "README.md",
+    "lib/"
+  ],
+  "author": "Ryan Kennedy <me@r24y.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "gulp js.lint && jest",
+    "build": "gulp build:prod"
+  },
+  "dependencies": {
+    "delayed-stream": "^1.0.0",
+    "event-stream": "^3.3.4",
+    "immutable": "^3.8.1",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "babel-preset-latest": "^6.22.0",
+    "eslint": "^3.16.1",
+    "eslint-config-google": "^0.7.1",
+    "eslint-plugin-react": "^6.10.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-cli": "^1.2.2",
+    "gulp-eslint": "^3.0.1",
+    "jest": "^19.0.2",
+    "vinyl": "^2.0.1"
+  },
+  "jest": {
+    "setupFiles": [
+      "./config/jest/run-with-babel.js"
+    ]
+  }
+}

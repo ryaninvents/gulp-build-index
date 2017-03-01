@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`all keywords, sorted 1`] = `
+Array [
+  "cooking",
+  "kitchen",
+  "living room",
+  "sitting",
+]
+`;
+
+exports[`all keywords, sorted 2`] = `
+Array [
+  "cooking",
+  "kitchen",
+  "living room",
+  "sitting",
+]
+`;
+
+exports[`all keywords, sorted 3`] = `
+Array [
+  "cooking",
+  "kitchen",
+  "living room",
+  "sitting",
+]
+`;
+
+exports[`full-text words, sorted 1`] = `
+Array [
+  "bar",
+  "baz",
+  "endpoint",
+  "foo",
+  "help",
+  "helps",
+  "manage",
+  "me",
+  "my",
+  "please",
+  "project",
+  "simple",
+  "that",
+  "with",
+  "you",
+  "your",
+]
+`;
+
+exports[`full-text words, sorted 2`] = `
+Array [
+  "bar",
+  "baz",
+  "endpoint",
+  "foo",
+  "help",
+  "helps",
+  "manage",
+  "me",
+  "my",
+  "please",
+  "project",
+  "simple",
+  "that",
+  "with",
+  "you",
+  "your",
+]
+`;
+
+exports[`full-text words, sorted 3`] = `
+Array [
+  "bar",
+  "baz",
+  "endpoint",
+  "foo",
+  "help",
+  "helps",
+  "manage",
+  "me",
+  "my",
+  "please",
+  "project",
+  "simple",
+  "that",
+  "with",
+  "you",
+  "your",
+]
+`;
+
+exports[`kitchen keywords 1`] = `
+Array [
+  "KitchenChair.md",
+  "Spatula.md",
+]
+`;
+
+exports[`kitchen keywords 2`] = `
+Array [
+  "KitchenChair.md",
+  "Spatula.md",
+]
+`;
+
+exports[`kitchen keywords 3`] = `
+Array [
+  "KitchenChair.md",
+  "Spatula.md",
+]
+`;

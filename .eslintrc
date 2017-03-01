@@ -1,0 +1,21 @@
+---
+extends:
+  - 'eslint:recommended'
+  - google
+parser: babel-eslint
+plugins:
+  - react
+env:
+  node: true
+  browser: true
+  es6: true
+parserOptions:
+  ecmaFeatures:
+    jsx: true
+globals:
+  React: false
+rules:
+  react/jsx-uses-vars: error
+  # Helpful settings for flowtype
+  valid-jsdoc: off
+  spaced-comment: [error, always, {markers: [':', '::', 'flow-include']}]
